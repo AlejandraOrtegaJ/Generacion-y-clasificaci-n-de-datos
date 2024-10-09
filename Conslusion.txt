@@ -1,0 +1,21 @@
+Conclusiones del Proyecto
+
+1. Lo aprendido durante el desarrollo del proyecto:
+
+Durante el desarrollo de este proyecto, aprendí a manejar la lectura y escritura de archivos en Java de manera eficiente. Esto incluyó el uso de clases como FileReader, BufferedReader, FileWriter y BufferedWriter para procesar archivos de texto que contienen información sobre vendedores, productos y ventas. También practiqué la manipulación de estructuras de datos como HashMap y ArrayList para organizar y procesar grandes volúmenes de información, así como la importancia de ordenar los datos correctamente antes de generar los reportes.
+
+Además, adquirí experiencia en el manejo de excepciones, como la captura de errores cuando el formato de los archivos no es el esperado, lo cual fue clave para garantizar que el programa sea robusto y funcional en diferentes situaciones.
+
+2. Posibles aplicaciones profesionales de las destrezas adquiridas:
+
+Las habilidades desarrolladas en este proyecto tienen aplicaciones claras en el mundo profesional, especialmente en áreas relacionadas con el manejo de grandes volúmenes de datos y la generación de informes. La capacidad de leer, procesar y generar archivos de manera eficiente es fundamental en sectores como la administración de sistemas de información, el análisis de datos y la automatización de procesos. La experiencia adquirida en el manejo de archivos de texto y en el procesamiento de datos utilizando estructuras eficientes también es relevante para proyectos más avanzados que involucren bases de datos o grandes conjuntos de datos.
+
+Además, la práctica en la generación de reportes a partir de datos crudos tiene aplicaciones en cualquier industria que requiera monitorear y analizar el rendimiento de vendedores, productos o servicios.
+
+3. Dificultades presentadas durante el desarrollo del proyecto:
+
+Uno de los principales desafíos durante el desarrollo del proyecto fue manejar los diferentes formatos numéricos que pueden aparecer en los archivos de entrada, especialmente cuando los números contienen comas en lugar de puntos como separadores decimales. Esto provocó excepciones de tipo NumberFormatException, lo que me llevó a implementar una solución que reemplazara las comas por puntos antes de procesar los números.
+
+Otra dificultad fue asegurar que el formato de los archivos de entrada fuera consistente. Al trabajar con archivos generados automáticamente, fue necesario implementar una validación para garantizar que cada línea en los archivos de información de vendedores y productos tuviera el formato adecuado.
+
+Finalmente, la implementación de la ordenación de datos para generar reportes en orden descendente también presentó un reto, que se resolvió utilizando listas y el método de comparación sort de Java.
